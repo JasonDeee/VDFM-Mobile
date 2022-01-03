@@ -26,11 +26,11 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   color: #292929;
 }
 
@@ -42,8 +42,8 @@ svg {
 .VirtualInfluencer section h1,
 .WhatNew section h1 {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 4rem;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -55,14 +55,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 100vw;
   overflow-x: hidden;
   position: absolute;
@@ -81,21 +81,15 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#151515),
-    to(#15151500)
-  );
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#15151500));
   background: linear-gradient(to bottom, #151515, #15151500);
   position: fixed;
   top: 0;
@@ -132,14 +126,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
@@ -170,17 +164,17 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding-top: 100px;
   -webkit-clip-path: circle(0% at 30px 30px);
-  clip-path: circle(0% at 30px 30px);
+          clip-path: circle(0% at 30px 30px);
   -webkit-transition: all 0.8s 0.3s cubic-bezier(0.75, 0, 0.15, 1);
   transition: all 0.8s 0.3s cubic-bezier(0.75, 0, 0.15, 1);
   position: relative;
@@ -200,7 +194,7 @@ svg {
   letter-spacing: 1px;
   text-transform: uppercase;
   -webkit-transform: translateY(100vh);
-  transform: translateY(100vh);
+          transform: translateY(100vh);
 }
 
 .Pop_Up li:hover {
@@ -217,14 +211,14 @@ svg {
 
 .Pop_Up_Active ul {
   -webkit-clip-path: circle(100% at 30px 30px);
-  clip-path: circle(100% at 30px 30px);
+          clip-path: circle(100% at 30px 30px);
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
 }
 
 .Pop_Up_Active li {
   -webkit-transform: translateY(0);
-  transform: translateY(0);
+          transform: translateY(0);
 }
 
 .Pop_Up_Active #version {
@@ -256,14 +250,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 40px;
   padding: 20px;
   padding-top: 20px;
@@ -271,7 +265,7 @@ svg {
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   -webkit-transform: translateY(-104%);
-  transform: translateY(-104%);
+          transform: translateY(-104%);
 }
 
 .Pop_Elements .column {
@@ -282,11 +276,11 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .Pop_Elements .column h1 {
@@ -386,14 +380,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   padding: 20px;
 }
 
@@ -404,13 +398,7 @@ svg {
   width: 100%;
   height: 62%;
   left: 0;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#00000000),
-    to(#000000)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000));
   background: linear-gradient(to bottom, #00000000, #000000);
   opacity: 0;
   -webkit-transition: all 1.3s cubic-bezier(0.25, 0, 0, 1);
@@ -440,14 +428,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
   position: relative;
 }
@@ -564,14 +552,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: relative;
 }
 
@@ -599,14 +587,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 7px;
   opacity: 0.4;
 }
@@ -616,7 +604,7 @@ svg {
   width: 22px;
   background: #e9e7e7;
   -webkit-transform-origin: 0% 50%;
-  transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
 }
@@ -631,12 +619,12 @@ svg {
 
 .left_nav .Nav_Expand_Button_Active div:nth-child(1) {
   -webkit-transform: rotate(45deg) translateY(-3.7px);
-  transform: rotate(45deg) translateY(-3.7px);
+          transform: rotate(45deg) translateY(-3.7px);
 }
 
 .left_nav .Nav_Expand_Button_Active div:nth-child(2) {
   -webkit-transform: rotate(-45deg) translateY(3.7px);
-  transform: rotate(-45deg) translateY(3.7px);
+          transform: rotate(-45deg) translateY(3.7px);
 }
 
 .center_nav {
@@ -645,14 +633,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 60px;
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
@@ -668,14 +656,14 @@ svg {
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
   color: #e9e7e7;
 }
@@ -699,14 +687,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .right_nav {
@@ -716,14 +704,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   padding-right: 10px;
   height: 60px;
@@ -830,11 +818,11 @@ svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #e9e7e7;
   cursor: pointer;
   text-decoration: none;
@@ -858,7 +846,7 @@ svg {
   bottom: 0;
   left: 0;
   -webkit-transform: translateY(0);
-  transform: translateY(0);
+          transform: translateY(0);
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
 }
@@ -886,7 +874,7 @@ svg {
 
 .Pop_Elements_Active {
   -webkit-transform: translateY(0);
-  transform: translateY(0);
+          transform: translateY(0);
   pointer-events: all;
 }
 
@@ -911,14 +899,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .thumbnail_horr {
@@ -950,7 +938,7 @@ svg {
 
 .Item:hover .thumbnail {
   -webkit-transform: scale(1.23);
-  transform: scale(1.23);
+          transform: scale(1.23);
 }
 
 .marked {
@@ -968,7 +956,7 @@ svg {
 
 .colorswap {
   -webkit-animation: colorswap 2s ease-in-out infinite alternate forwards;
-  animation: colorswap 2s ease-in-out infinite alternate forwards;
+          animation: colorswap 2s ease-in-out infinite alternate forwards;
 }
 
 .special:hover {
@@ -977,7 +965,7 @@ svg {
 
 .colorswap:hover {
   -webkit-animation: none;
-  animation: none;
+          animation: none;
 }
 
 @-webkit-keyframes colorswap {
@@ -1008,7 +996,7 @@ svg {
   margin: auto;
   left: -15px;
   -webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
   display: inline-block;
   background: #292929;
 }
@@ -1019,14 +1007,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-transition: height 0.8s 0.1s cubic-bezier(0.25, 0, 0, 1);
   transition: height 0.8s 0.1s cubic-bezier(0.25, 0, 0, 1);
 }
@@ -1064,14 +1052,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1090,7 +1078,7 @@ svg {
   width: 10px;
   border: solid 1px #e9e7e7;
   -webkit-box-shadow: 0 0 1vw #000000c0;
-  box-shadow: 0 0 1vw #000000c0;
+          box-shadow: 0 0 1vw #000000c0;
   border-radius: 5px;
   background: #e9e7e700;
   -webkit-transition: all 0.3s ease-out;
@@ -1111,11 +1099,11 @@ svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Carrousel_button .Carrousel_button_Svg {
@@ -1150,7 +1138,7 @@ svg {
 
 #Next .Carrousel_button_Svg {
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .Carrousel_Slider {
@@ -1161,19 +1149,19 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   position: absolute;
   top: 0;
   overflow: visible;
   -webkit-transform: translateX(-100vw);
-  transform: translateX(-100vw);
+          transform: translateX(-100vw);
 }
 
 .Carrousel_Items {
@@ -1187,14 +1175,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   padding-bottom: 50px;
   position: absolute;
   bottom: 100px;
@@ -1211,14 +1199,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -1249,10 +1237,8 @@ svg {
   letter-spacing: -2px;
   line-height: 2.2rem;
   text-transform: uppercase;
-  -webkit-transition: all 1.3s cubic-bezier(0.25, 0, 0, 1),
-    letter-spacing 2s cubic-bezier(0.25, 0, 0, 1);
-  transition: all 1.3s cubic-bezier(0.25, 0, 0, 1),
-    letter-spacing 2s cubic-bezier(0.25, 0, 0, 1);
+  -webkit-transition: all 1.3s cubic-bezier(0.25, 0, 0, 1), letter-spacing 2s cubic-bezier(0.25, 0, 0, 1);
+  transition: all 1.3s cubic-bezier(0.25, 0, 0, 1), letter-spacing 2s cubic-bezier(0.25, 0, 0, 1);
   margin-top: 4px;
 }
 
@@ -1289,33 +1275,33 @@ svg {
 #ISlot1 {
   background-position: top;
   background-size: cover;
-  background-image: url("https://alpha.vdfm.ga/assets/Images/Render2.jpg");
+  background-image: url("https://vdfm.ga/assets/Images/Render2.jpg");
 }
 
 #ISlot2 {
   background-position: 50% 20%;
   background-size: cover;
-  background-image: url("https://alpha.vdfm.ga/assets/Images/Render2.jpg");
+  background-image: url("https://vdfm.ga/assets/Images/Render2.jpg");
 }
 
 #ISlot3 {
   background-position: 50% 30%;
   background-size: cover;
-  background-image: url("https://alpha.vdfm.ga/assets/Images/Render2.jpg");
+  background-image: url("https://vdfm.ga/assets/Images/Render2.jpg");
 }
 
 .HomePage #sec2 {
   margin-top: 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -1355,14 +1341,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .HomePage #sec2 .row * {
@@ -1379,14 +1365,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .HomePage #sec2 #left_col {
@@ -1403,15 +1389,15 @@ svg {
 .HomePage #sec2 .OutBound_item {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .HomePage #sec2 .InBound_item {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .HomePage #sec2 #sticky1 .thumbnail_1x1 {
@@ -1438,8 +1424,8 @@ svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -1462,11 +1448,11 @@ svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background-position: 50% 50%;
   background-size: 101%;
   background-repeat: no-repeat;
@@ -1484,8 +1470,8 @@ svg {
   min-height: 10px;
   max-width: unset;
   -webkit-box-flex: unset;
-  -ms-flex: unset;
-  flex: unset;
+      -ms-flex: unset;
+          flex: unset;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1524,13 +1510,7 @@ svg {
   aspect-ratio: 1;
   -webkit-transition: all 1.3s cubic-bezier(0.25, 0, 0, 1);
   transition: all 1.3s cubic-bezier(0.25, 0, 0, 1);
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(#000000d6),
-    to(#00000000)
-  );
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000d6), to(#00000000));
   background: linear-gradient(to top, #000000d6, #00000000);
 }
 
@@ -1566,28 +1546,28 @@ svg {
   top: 15%;
   bottom: 15%;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .HomePage .contents {
   min-height: 10px;
   max-width: 62%;
   -webkit-box-flex: 1;
-  -ms-flex: auto;
-  flex: auto;
+      -ms-flex: auto;
+          flex: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding-top: 20px;
   padding-left: 15px;
   padding-right: 20px;
@@ -1631,7 +1611,7 @@ svg {
 
 .OutBound_item:hover .thumbnail {
   -webkit-transform: scale(1.23);
-  transform: scale(1.23);
+          transform: scale(1.23);
 }
 
 .InBound_item:hover {
@@ -1644,7 +1624,7 @@ svg {
 
 .InBound_item:hover .thumbnail {
   -webkit-transform: scale(1.23);
-  transform: scale(1.23);
+          transform: scale(1.23);
 }
 
 .show_more_but {
@@ -1655,14 +1635,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 50px;
   position: relative;
   gap: 5px;
@@ -1686,13 +1666,13 @@ svg {
   width: 25px;
   height: auto;
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+          transform: rotate(180deg);
   overflow: visible;
 }
 
 .show_more_but .active {
   -webkit-transform: rotate(0);
-  transform: rotate(0);
+          transform: rotate(0);
 }
 
 .show_more_but .arr-1 {
@@ -1720,14 +1700,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   max-width: 100vw;
   color: #151515;
   padding-top: 150px;
@@ -1770,10 +1750,10 @@ svg {
   display: grid;
   width: 96vw;
   margin-top: 50px;
-  -ms-grid-columns: (minmax(180px, 1fr)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  -ms-grid-rows: (1fr) [auto-fit];
-  grid-template-rows: repeat(auto-fit, 1fr);
+  -ms-grid-columns: (minmax(180px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  -ms-grid-rows: (1fr)[auto-fit];
+      grid-template-rows: repeat(auto-fit, 1fr);
 }
 
 .HomePage #sec3 .InBound_item {
@@ -1852,14 +1832,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding-top: calc(50px + 1.5rem);
   padding-bottom: 50px;
   margin-top: 75px;
@@ -1911,10 +1891,10 @@ svg {
   width: 1024px;
   max-width: 1024px;
   margin-top: 50px;
-  -ms-grid-columns: (1fr) [3];
-  grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: (1fr) [auto-fill];
-  grid-template-rows: repeat(auto-fill, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[auto-fill];
+      grid-template-rows: repeat(auto-fill, 1fr);
   grid-gap: 10px;
 }
 
@@ -1929,11 +1909,11 @@ svg {
 .HomePage #sec4 .OutBound_item {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding-bottom: 40px;
 }
 
@@ -1983,19 +1963,19 @@ svg {
 @media screen and (max-width: 960px) {
   .HomePage #sec2 {
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .HomePage #sec2 .row {
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .HomePage #sec2 #right_col {
     display: none;
@@ -2014,8 +1994,8 @@ svg {
 
 @media screen and (max-width: 1024px) {
   .HomePage #sec4 .grid {
-    -ms-grid-columns: (1fr) [2];
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
     width: 100%;
   }
 }
@@ -2034,8 +2014,8 @@ svg {
 
 @media screen and (max-width: 480px) {
   .HomePage #sec4 .grid {
-    -ms-grid-columns: (1fr) [1];
-    grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
     width: 100%;
   }
 }
@@ -2046,14 +2026,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 100vw;
   min-height: 50vh;
   background: #151515;
@@ -2070,14 +2050,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: relative;
   gap: 20px;
 }
@@ -2091,14 +2071,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   letter-spacing: 0.05rem;
   color: #999999;
   margin-bottom: 10px;
@@ -2112,11 +2092,11 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
   margin-bottom: 30px;
 }
@@ -2149,11 +2129,11 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
   margin-bottom: 5px;
 }
@@ -2207,7 +2187,7 @@ svg {
   height: 40px;
   background-size: contain;
   -webkit-filter: invert(1);
-  filter: invert(1);
+          filter: invert(1);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2218,8 +2198,8 @@ svg {
 
 .Footer .Contacts {
   -webkit-box-flex: 1;
-  -ms-flex: auto;
-  flex: auto;
+      -ms-flex: auto;
+          flex: auto;
 }
 
 .Footer .Logos {
@@ -2228,15 +2208,15 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 20px;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Footer .Logos .fbi-1 {
@@ -2294,14 +2274,14 @@ svg {
 .FourOhFour {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -2355,14 +2335,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 3vw;
 }
 
@@ -2408,8 +2388,8 @@ svg {
   .FourOhFour .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-top: 20px;
   }
   .FourOhFour .Return_Home_Button,
@@ -2421,14 +2401,14 @@ svg {
 .ThankYou {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -2492,14 +2472,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 3vw;
 }
 
@@ -2558,14 +2538,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 100vw;
   height: auto;
 }
@@ -2581,15 +2561,15 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
   width: 100vw;
   height: 80vh;
@@ -2621,7 +2601,7 @@ svg {
   top: 0;
   left: 0;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .WhatNew #Video_Header h1,
@@ -2683,13 +2663,10 @@ svg {
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 10%;
-  -webkit-transition: opacity 0.8s cubic-bezier(0.25, 0, 0, 1),
-    -webkit-transform 10s linear;
-  transition: opacity 0.8s cubic-bezier(0.25, 0, 0, 1),
-    -webkit-transform 10s linear;
+  -webkit-transition: opacity 0.8s cubic-bezier(0.25, 0, 0, 1), -webkit-transform 10s linear;
+  transition: opacity 0.8s cubic-bezier(0.25, 0, 0, 1), -webkit-transform 10s linear;
   transition: opacity 0.8s cubic-bezier(0.25, 0, 0, 1), transform 10s linear;
-  transition: opacity 0.8s cubic-bezier(0.25, 0, 0, 1), transform 10s linear,
-    -webkit-transform 10s linear;
+  transition: opacity 0.8s cubic-bezier(0.25, 0, 0, 1), transform 10s linear, -webkit-transform 10s linear;
 }
 
 .WhatNew #sec2,
@@ -2702,11 +2679,11 @@ svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-top: 50px;
 }
 
@@ -2725,13 +2702,13 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-transition: all 0.45s ease-out;
   transition: all 0.45s ease-out;
   cursor: pointer;
@@ -2794,7 +2771,7 @@ svg {
 .About #sec2 #InBound,
 .Contact #sec2 #InBound {
   -webkit-filter: invert(1);
-  filter: invert(1);
+          filter: invert(1);
   background-image: url(../Vectors/GridIcon.svg);
 }
 
@@ -2805,7 +2782,7 @@ svg {
 .About #sec2 .LayOut_Swap_Grid .Overlay_Swap,
 .Contact #sec2 .LayOut_Swap_Grid .Overlay_Swap {
   -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+          transform: translateX(100%);
 }
 
 .WhatNew #sec2 .LayOut_Swap_Grid #OutBound,
@@ -2815,7 +2792,7 @@ svg {
 .About #sec2 .LayOut_Swap_Grid #OutBound,
 .Contact #sec2 .LayOut_Swap_Grid #OutBound {
   -webkit-filter: invert(1);
-  filter: invert(1);
+          filter: invert(1);
 }
 
 .WhatNew #sec2 .LayOut_Swap_Grid #InBound,
@@ -2825,7 +2802,7 @@ svg {
 .About #sec2 .LayOut_Swap_Grid #InBound,
 .Contact #sec2 .LayOut_Swap_Grid #InBound {
   -webkit-filter: invert(0);
-  filter: invert(0);
+          filter: invert(0);
 }
 
 .WhatNew .OutBoundLayout,
@@ -2845,14 +2822,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   gap: 15px;
 }
 
@@ -2880,11 +2857,11 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: relative;
   max-width: 100%;
   -webkit-transition: all 0.8s cubic-bezier(0.15, 0, 0, 1);
@@ -2918,8 +2895,8 @@ svg {
 .Contact .OutBoundLayout .contents {
   min-height: 10px;
   -webkit-box-flex: 1;
-  -ms-flex: auto;
-  flex: auto;
+      -ms-flex: auto;
+          flex: auto;
   width: 66%;
   position: relative;
   display: -webkit-box;
@@ -2927,14 +2904,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding-left: 20px;
   padding-top: 20px;
   text-transform: none;
@@ -3000,8 +2977,8 @@ svg {
   color: #696969;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .WhatNew .OutBoundLayout .view_count::after,
@@ -3021,7 +2998,7 @@ svg {
   top: 15%;
   bottom: 15%;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .WhatNew .OutBoundLayout .HashTag,
@@ -3036,7 +3013,7 @@ svg {
   left: -60px;
   white-space: nowrap;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .WhatNew .InBoundLayout,
@@ -3055,10 +3032,10 @@ svg {
   display: grid;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-grid-columns: (minmax(480px, 1fr)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-columns: (minmax(480px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   gap: 15px;
 }
 
@@ -3083,11 +3060,11 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: relative;
   color: #e9e7e7;
   -webkit-transition: all 0.8s cubic-bezier(0.15, 0, 0, 1);
@@ -3133,13 +3110,7 @@ svg {
 .About .InBoundLayout .thumbnail_square::after,
 .Contact .InBoundLayout .thumbnail_square::after {
   content: "";
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#00000000),
-    to(#000000)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000));
   background: linear-gradient(to bottom, #00000000, #000000);
   width: 100%;
   height: 68%;
@@ -3156,8 +3127,8 @@ svg {
 .Contact .InBoundLayout .contents {
   min-height: 10px;
   -webkit-box-flex: 1;
-  -ms-flex: auto;
-  flex: auto;
+      -ms-flex: auto;
+          flex: auto;
   width: 66%;
   position: relative;
   display: -webkit-box;
@@ -3165,14 +3136,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -3239,8 +3210,8 @@ svg {
   color: #a9a7a7;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .WhatNew .InBoundLayout .view_count::after,
@@ -3260,7 +3231,7 @@ svg {
   top: 15%;
   bottom: 15%;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .WhatNew .InBoundLayout .HashTag,
@@ -3275,7 +3246,7 @@ svg {
   left: -60px;
   white-space: nowrap;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .WhatNew .InBoundLayout .show_more_but,
@@ -3359,8 +3330,8 @@ svg {
   .VirtualInfluencer .InBoundLayout,
   .About .InBoundLayout,
   .Contact .InBoundLayout {
-    -ms-grid-columns: (minmax(360px, 1fr)) [auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    -ms-grid-columns: (minmax(360px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   }
 }
 
@@ -3392,14 +3363,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
@@ -3428,7 +3399,7 @@ svg {
   right: 0;
   margin: auto;
   -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+          transform: translateY(100%);
 }
 
 .WhatNew #IMG1 {
@@ -3461,14 +3432,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
@@ -3497,7 +3468,7 @@ svg {
   right: 0;
   margin: auto;
   -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+          transform: translateY(100%);
 }
 
 .VirtualInfluencer #IMG1 {
@@ -3529,14 +3500,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
@@ -3574,7 +3545,7 @@ svg {
   right: 0;
   margin: auto;
   -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+          transform: translateY(100%);
 }
 
 .InVietNam #IMG1 {
@@ -3608,14 +3579,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
@@ -3652,7 +3623,7 @@ svg {
   right: 0;
   margin: auto;
   -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+          transform: translateY(100%);
 }
 
 .About #IMG1 {
@@ -3682,14 +3653,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 100px;
   margin-top: 150px;
   min-height: 0;
@@ -3737,14 +3708,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding-top: 50px;
   padding-bottom: 100px;
 }
@@ -3756,7 +3727,7 @@ svg {
   height: 30px;
   background-image: url(../Vectors/AboutDecor.svg);
   -webkit-filter: invert(0.6);
-  filter: invert(0.6);
+          filter: invert(0.6);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -3780,8 +3751,8 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   gap: 30px;
 }
 
@@ -3792,11 +3763,11 @@ svg {
   width: 360px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   text-align: right;
 }
 
@@ -3808,8 +3779,8 @@ svg {
 .About #Stories #col2 {
   margin-top: 170px;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   text-align: left;
 }
 
@@ -3830,14 +3801,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: stretch;
-  -ms-flex-pack: stretch;
-  justify-content: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
   gap: 30px;
   margin-top: 50px;
 }
@@ -3861,14 +3832,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .About .Social_Row a:hover {
@@ -3883,7 +3854,7 @@ svg {
   margin-right: 10px;
   display: inline-block;
   -webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
 }
 
 .About .Social_Row .community_des_col {
@@ -3892,14 +3863,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   height: auto;
 }
 
@@ -3927,11 +3898,11 @@ svg {
 
 .About #Instagram .community_des_col {
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .About #LinkedIn_Embed {
@@ -3945,22 +3916,22 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: stretch;
-  -ms-flex-pack: stretch;
-  justify-content: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
   gap: 30px;
   overflow: hidden;
 }
 
 .About #LinkedIn_Embed .community_des_col {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .About #LinkedIn_Embed .Embed_holder {
@@ -3989,14 +3960,14 @@ svg {
   .About #VDFM_Points {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .About #Facebook {
     margin-right: 0;
@@ -4010,14 +3981,14 @@ svg {
   .About #Stories .stories_layout {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .About #Stories .stories_col {
     text-align: left;
     -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .About #Stories #col2 {
     margin-top: 0;
@@ -4025,14 +3996,14 @@ svg {
   .About .Social_Row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .About #Instagram {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 }
 
@@ -4074,14 +4045,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .Contact #Map_Header #info_windows h1 {
@@ -4118,14 +4089,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 96vw;
   padding: 50px;
   min-height: 0;
@@ -4143,7 +4114,7 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   -webkit-filter: invert(0.6);
-  filter: invert(0.6);
+          filter: invert(0.6);
 }
 
 .Contact #Contact_Info {
@@ -4156,14 +4127,14 @@ svg {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Contact .Contact_col {
@@ -4172,12 +4143,12 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 512px;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   color: #292929;
   position: relative;
 }
@@ -4229,14 +4200,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   gap: 20px;
   max-width: 512px;
   width: 68vw;
@@ -4251,14 +4222,14 @@ svg {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .Contact form input,
@@ -4299,11 +4270,11 @@ svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
 }
@@ -4324,11 +4295,11 @@ svg {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .Contact form button:hover {
@@ -4376,7 +4347,7 @@ svg {
   -webkit-transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   transition: all 0.8s cubic-bezier(0.25, 0, 0, 1);
   -webkit-animation: RoateCircle 2s linear 0s infinite forwards;
-  animation: RoateCircle 2s linear 0s infinite forwards;
+          animation: RoateCircle 2s linear 0s infinite forwards;
 }
 
 .Contact .loadingcirle-1 {
@@ -4388,28 +4359,28 @@ svg {
   stroke-dasharray: 500px;
   stroke-dashoffset: 500px;
   -webkit-animation: loadingcirle 2s ease-in-out 0s infinite forwards alternate;
-  animation: loadingcirle 2s ease-in-out 0s infinite forwards alternate;
+          animation: loadingcirle 2s ease-in-out 0s infinite forwards alternate;
 }
 
 @-webkit-keyframes RoateCircle {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
 @keyframes RoateCircle {
   0% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
@@ -4439,14 +4410,14 @@ svg {
   .Contact #Contact_Info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .Contact #Coop {
     text-align: center;
@@ -4455,14 +4426,14 @@ svg {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .Contact .Ver_line {
     width: 62vw;
@@ -4473,8 +4444,8 @@ svg {
   .Contact #Form {
     padding-left: 0;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .Contact #Map_Header #info_windows {
     width: 62vw;
@@ -4486,14 +4457,14 @@ svg {
   .Contact #Contact_Info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .Contact #Coop {
     text-align: center;
@@ -4502,14 +4473,14 @@ svg {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 96vw;
   }
   .Contact .Ver_line {
@@ -4521,8 +4492,8 @@ svg {
   .Contact #Form {
     padding-left: 0;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 96vw;
   }
 }
