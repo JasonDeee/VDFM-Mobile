@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232 232">
+    <defs>
+        <style>
+            .isg-1 {
+                fill: none;
+                stroke: #292929;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 10px;
+            }
+        </style>
+    </defs>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1">
+            <path class="isg-1"
+                d="M189.75,5H42.25A37.25,37.25,0,0,0,5,42.25v147.5A37.25,37.25,0,0,0,42.25,227h147.5A37.25,37.25,0,0,0,227,189.75V42.25A37.25,37.25,0,0,0,189.75,5ZM116,179a63,63,0,1,1,63-63A63,63,0,0,1,116,179ZM186.5,55a9.5,9.5,0,1,1,9.5-9.5A9.5,9.5,0,0,1,186.5,55Z" />
+        </g>
+    </g>
+</svg>
